@@ -53,15 +53,14 @@ class ArticleController extends AbstractController
 
     // Système des wildcards
     /**
-     * @Route("/article/{id}", name = "ArticleShow")
+     * @Route("/article/{id}", name="ArticleShow")
      */
     public function articleShow($id)
     {
         $article = $this->articles[$id];
         //return new Response("Titre de l'article : ".$article['title']);
-        return $this->render('article.html.twig', ['article' => $article]);
+        return $this->render('article_show.html.twig', ['article' => $article]);
     }
-
 
 
 }
