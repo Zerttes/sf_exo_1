@@ -20,6 +20,7 @@ class ArticleController
      * @Route("/article/{id}", name="articleShow")
      */
     public function articleShow ($id)
+
     {
         $articles = [
             1 => [
