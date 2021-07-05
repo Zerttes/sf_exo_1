@@ -17,7 +17,8 @@ class ArticleController extends AbstractController
                 Libero ipsa ipsum sunt modi nesciunt officia, 
                 iste repellat quidem quae voluptatem quas animi, 
                 facilis voluptatibus quaerat eveniet, repellendus aut ullam delectus.",
-            "id" => 1
+            "id" => 1,
+            "published" => true,
         ],
         2 => [
             "title" => "La vaccination c'est pas trop géniale",
@@ -25,21 +26,24 @@ class ArticleController extends AbstractController
                Repudiandae asperiores officiis corporis modi minima odio temporibus! 
                Dicta dolorum eaque minima, suscipit et voluptates cumque 
                veritatis recusandae corrupti ipsa blanditiis minus.",
-            "id" => 2
+            "id" => 2,
+            "published" => true,
         ],
         3 => [
             "title" => "Balkany c'est trop génial",
             "content" => "Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
                Porro eligendi asperiores doloremque aspernatur eum iure debitis commodi esse corporis tenetur? 
                Ratione iste error veniam numquam. Esse totam sunt earum non?",
-            "id" => 3
+            "id" => 3,
+            "published" => true,
         ],
         4 => [
             "title" => "Balkany c'est pas trop génial",
             "content" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                Voluptas, error amet suscipit dolore accusantium possimus tempore, 
                ipsa deserunt voluptatem totam dolor explicabo placeat fugiat dolorum necessitatibus beatae neque velit adipisci.",
-            "id" => 4
+            "id" => 4,
+            "published" => true,
         ]
     ];
 

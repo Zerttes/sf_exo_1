@@ -8,14 +8,9 @@
     width: 100%;
 }
 
-body {
-    backrground-color: black;
-
-}
-
 h2 , p {
     text-align: center;
-    color: red;
+    color: cornflowerblue;
     border:1px dotted black;
 }
 
@@ -24,7 +19,7 @@ p {
 }
 
 .nav-header {
-    background-color: #5eb5e0;
+    background-color: coral;
     text-align: center;
     height: 10vh;
 }
@@ -33,6 +28,7 @@ p {
     justify-content: center;
     list-style-type: none;
     text-decoration: none;
+    font-family: "Al Bayan";
 }
 .lien1 {
     margin: 10px;
@@ -51,15 +47,21 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    padding-top: 2%;
+    padding-top: 10%;
 }
 article {
     width: 40%;
     padding-top: 2%;
+    height: 30%;
 }
 footer {
-    margin-top: 25%  ;
+    margin-top: 17%  ;
     height: 10vh;
     background-color: coral;
-
+    text-align: center;
 }
+body {
+    background-color: grey;
+}
+
+
