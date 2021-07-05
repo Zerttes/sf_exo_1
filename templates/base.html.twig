@@ -1,19 +1,36 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <title>{% block title %}Welcome!{% endblock %}</title>
-        {# Run `composer require symfony/webpack-encore-bundle`
-           and uncomment the following Encore helpers to start using Symfony UX #}
-        {% block stylesheets %}
-            {#{{ encore_entry_link_tags('app') }}#}
-        {% endblock %}
+<html lang="fr">
+{# permet de lire le css apply inline_css(source("style.css"))#}
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {# asset permet de lire le fichier css placé dans le dossier public #}
+    <link rel="stylesheet" href="{{ asset('style.css') }}">
+    <title>{% block metaTitle %}{% endblock metaTitle %}</title>
 
-        {% block javascripts %}
-            {#{{ encore_entry_script_tags('app') }}#}
-        {% endblock %}
-    </head>
-    <body>
-        {% block body %}{% endblock %}
-    </body>
+</head>
+<body>
+
+<header>
+    <p>HEADER</p>
+</header>
+
+<main>
+    {% block main %}
+    {% endblock main %}
+
+</main>
+
+<footer>
+    <p>
+        {% block textFooter %}
+        {% endblock textFooter %}
+    </p>
+
+</footer>
+
+
+</body>
 </html>
+{# endapply#}
